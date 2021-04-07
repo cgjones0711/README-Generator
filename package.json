@@ -1,0 +1,22 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "User Promted README generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgjones0711/README-Generator.git"
+  },
+  "author": "Clayton Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgjones0711/README-Generator/issues"
+  },
+  "homepage": "https://github.com/cgjones0711/README-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
