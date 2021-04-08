@@ -19,7 +19,7 @@ fs;
 Inquirer 
 
 ## ScreenCastify
-<a href="https://drive.google.com/file/d/1VVOpyhY0n-TQPuC9AHqKCur2JooYmKOk/view?usp=sharing">Visit W3Schools</a>
+<a href="https://drive.google.com/file/d/1VVOpyhY0n-TQPuC9AHqKCur2JooYmKOk/view?usp=sharing">Click to Watch Video</a>
 
 ## Github 
 https://github.com/cgjones0711/README-Generator.git
