@@ -1,8 +1,9 @@
-var inquirer = require('inquirer');
+const inquirer = require('inquirer');
 const fs = require('fs');
 const util =require("util")
 const writeToFile = util.promisify(fs.writeFile);
 const generateMarkdown = require("./utils/generateMarkdown")
+
   
 function questions(){
 return inquirer  
@@ -58,7 +59,7 @@ return inquirer
       {
         type: 'input',
         name: 'github',
-        message: 'Please enter your Github username.',
+        message: 'Please enter your Github username (only include user ID).',
       },
       {
         type: 'input',
@@ -74,47 +75,54 @@ return inquirer
   
 }
     const newREADME = (answers) =>
-    `<h1> ${answers.title}!</h1>
+ `#${answers.title}
 
-    (https://img.shields.io/badge/license-${answers.license}
+(https://img.shields.io/badge/license-${answers.license}
 
-    ## Description
+## Description
         ${answers.description}
 
-    ## Table of Contents
-    ### Description (#description)
-    ### Installation (#installation)
-    ### Usage (#usage)
-    ### License (#license)
-    ### Contributing Guidelines (#guidelines)
-    ### Test Instructions (#instructions)
-    ### Questions 
-        (#contact)
-        (#github)
-        (#email)
-        
+## Table of Contents 
 
-    ## Installation
-    ${answers.installation}
-
-    ## Usage
-    ${answers.usage}
-
-    ## License
-   
-    ${answers.license}
-
-    ## Contributing Guidelines
-    ${answers.guidelines}
-
-    ## Test Instructions
-    ${answers.instructions}
-
-    ## Questions
-    ${answers.github}
-    ${answers.email}
-    ${answers.contact}`
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing Guidelines](#guidelines)
+- [Test Instructions](#instructions)
+- [Questions](#questions)
     
+    
+
+## Installation
+${answers.installation}
+
+## Usage
+${answers.usage}
+
+## License
+
+${answers.license}
+
+## Contributing Guidelines
+${answers.guidelines}
+
+## Test Instructions
+${answers.instructions}
+
+## Questions
+${answers.contact}
+
+
+## Github
+https://www.github.com/${answers.github}
+
+## Email
+${answers.email}
+
+## Link To Project
+https://github.com/cgjones0711/README-Generator.git
+`
+
 
 
     const init = () => {
