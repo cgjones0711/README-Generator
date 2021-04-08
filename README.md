@@ -1,8 +1,8 @@
-#army
+#README Generator
 
 
 ## Description
-        afj
+        When prompted the user will answer general questions about their project. Once this is complete a README.md will generate automatically.
 
 ## Table of Contents 
 
@@ -16,27 +16,27 @@
     
 
 ## Installation
-adf
+By cloning down from my git repository.
 
 ## Usage
-asdf
+no
 
 ## License
 
 Apache
 
 ## Contributing Guidelines
-asdf
+No profanity and always have fun!
 
 ## Test Instructions
 undefined
 
 ## Questions
-asdf
+Feel free to reach out to me via email or github.
 
-https://www.github.com/asdf
+https://www.github.com/cgjones0711
 
-asdf
+cgjones0711@gmail.com
 
 ## Link To Project
 https://github.com/cgjones0711/README-Generator.git
