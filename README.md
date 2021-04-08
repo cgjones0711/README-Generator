@@ -17,6 +17,7 @@ None
 JavaScript;
 fs;
 Inquirer 
+Node
 
 ## ScreenCastify
 <a href="https://drive.google.com/file/d/1VVOpyhY0n-TQPuC9AHqKCur2JooYmKOk/view?usp=sharing">Click to Watch Video</a>
@@ -27,5 +28,7 @@ https://github.com/cgjones0711/README-Generator.git
 ## Questions
 If there are any questions regarding the layout, functionality, or you just want to chat, I am available at cgjones0711@gmail.com
 
-<img src="./screenshot.png" alt="screenshot">
+<!-- <img src="./screenshot.png" alt="screenshot"> -->
+
+<img src="https://github.com/CGJONES0711/README-GENERATOR/blob/main/Screenshot.png"/>
     

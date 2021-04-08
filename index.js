@@ -76,6 +76,8 @@ return inquirer
 }
     const newREADME = (answers) =>
  `#${answers.title}
+ 
+ ![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
 
 ## Description
