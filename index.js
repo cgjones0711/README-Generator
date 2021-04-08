@@ -77,7 +77,6 @@ return inquirer
     const newREADME = (answers) =>
  `#${answers.title}
 
-(https://img.shields.io/badge/license-${answers.license}
 
 ## Description
         ${answers.description}
@@ -112,11 +111,8 @@ ${answers.instructions}
 ## Questions
 ${answers.contact}
 
-
-## Github
 https://www.github.com/${answers.github}
 
-## Email
 ${answers.email}
 
 ## Link To Project
