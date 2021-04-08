@@ -76,7 +76,7 @@ return inquirer
     const newREADME = (answers) =>
     `<h1> ${answers.title}!</h1>
 
-            [Links badge]
+    (https://img.shields.io/badge/license-${answers.license}
 
     ## Description
         ${answers.description}
@@ -101,7 +101,7 @@ return inquirer
     ${answers.usage}
 
     ## License
-    [insert badge]
+   
     ${answers.license}
 
     ## Contributing Guidelines
