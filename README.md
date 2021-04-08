@@ -1,34 +1,44 @@
-# README Generator 
+#README Generator
+ 
+ ![GitHub license](https://img.shields.io/badge/license-Apache-blue.svg)
 
-## Description:
-This project was designed to generate a README.md file which automatically populates after the user enters all the information which is prompted.
 
+## Description
+        Once prompted the user will enter in data and once finished the data will be auto populated to a professional README.md
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing Guidelines](#guidelines)
+- [Test Instructions](#instructions)
+- [Questions](#questions)
+    
+    
 
 ## Installation
-To install this project go to github.com/cgjones0711 request to follow me and then fork the repository. 
+Fork down from my github repository
+
+## Usage
+no
+
+## License
+
+Apache
 
 ## Contributing Guidelines
-All serious contributors may tweak the code to be more efficiant and user friendly.
+Have Fun!
 
 ## Test Instructions
-None
-
-## Technologies used
-JavaScript;
-fs;
-Inquirer 
-Node
-
-## ScreenCastify
-<a href="https://drive.google.com/file/d/1VVOpyhY0n-TQPuC9AHqKCur2JooYmKOk/view?usp=sharing">Click to Watch Video</a>
-
-## Github 
-https://github.com/cgjones0711/README-Generator.git
+undefined
 
 ## Questions
-If there are any questions regarding the layout, functionality, or you just want to chat, I am available at cgjones0711@gmail.com
+If you have any questions feel free to contact me at
 
-<!-- <img src="./screenshot.png" alt="screenshot"> -->
+https://www.github.com/cgjones0711
 
-<img src="https://github.com/CGJONES0711/README-GENERATOR/blob/main/Screenshot.png"/>
-    
+cgjones0711@gmail.com
+
+## Link To Project
+https://github.com/cgjones0711/README-Generator.git
