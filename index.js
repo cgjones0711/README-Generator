@@ -2,7 +2,7 @@ var inquirer = require('inquirer');
 const fs = require('fs');
 const util =require("util")
 const writeToFile = util.promisify(fs.writeFile);
-const generateMarkdown = require("./utils")
+const generateMarkdown = require("./utils/generateMarkdown")
   
 function questions(){
 return inquirer  
@@ -68,13 +68,15 @@ return inquirer
       {
         type: 'input',
         name: 'contact',
-        message: 'How can users reach you?',
+        message: 'How can users reach you or ask questions about your project?',
       },
   ])
   
 }
     const newREADME = (answers) =>
     `<h1> ${answers.title}!</h1>
+
+            [Links badge]
 
     ## Description
         ${answers.description}
@@ -86,9 +88,33 @@ return inquirer
     ### License (#license)
     ### Contributing Guidelines (#guidelines)
     ### Test Instructions (#instructions)
-    ###
-    ###
-    ###
+    ### Questions 
+        (#contact)
+        (#github)
+        (#email)
+        
+
+    ## Installation
+    ${answers.installation}
+
+    ## Usage
+    ${answers.usage}
+
+    ## License
+    [insert badge]
+    ${answers.license}
+
+    ## Contributing Guidelines
+    ${answers.guidelines}
+
+    ## Test Instructions
+    ${answers.instructions}
+
+    ## Questions
+    ${answers.github}
+    ${answers.email}
+    ${answers.contact}`
+    
 
 
     const init = () => {
