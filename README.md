@@ -27,5 +27,5 @@ https://github.com/cgjones0711/README-Generator.git
 ## Questions
 If there are any questions regarding the layout, functionality, or you just want to chat, I am available at cgjones0711@gmail.com
 
-<img src="./screenshot.png" alt="PassWord Generator">
+<img src="./screenshot.png" alt="screenshot">
     
